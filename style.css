@@ -1,0 +1,443 @@
+@font-face {
+    font-family: mainFontBold;
+    src: url("font/UniNeueBold.otf");
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url("font/UniNeueRegular.otf");
+}
+
+.brand-image{
+    height: 66px;
+    width: 155px;
+    margin: 7px;
+}
+
+
+body{
+    font-family: 'mainFont',sans-serif,Helvetica,Arial;
+}
+
+.navbar .container{
+    height: 76px;
+}
+.navbar{
+    box-shadow: 0px 1px 5px rgba(124, 124, 124, 0.5);
+}
+
+.navbar-toggler{
+    border: 0 !important;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: rgb(69, 2, 95) !important;
+}
+
+.carousel-indicators{
+    bottom: -65px;
+}
+.carousel-indicators button{
+    border-radius:50%;
+    width:12px !important;
+    height:12px !important;
+    background-color: #6739b7 !important;
+    margin: 5px !important;
+    margin-bottom: 10px !important;
+}
+.carousel{
+    height: 450px !important;
+}
+.carousel-caption{
+    align-self: flex-start;
+}
+
+
+.learnBtn{
+    color: #fff;
+    background-color: #6739b7;
+    text-align: center;
+    width: 156px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.sec1 .card{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec1 .card:hover{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sec1 .card h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #361968 !important;
+}
+.sec1 .card p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333;
+    margin-top: 10px;
+}
+
+.s1c1{
+    background-image: url("img/card1bg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 280px 100%;
+  ;
+}
+
+.s2c2{
+    background-image: url("img/card2bg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 280px 100%;
+  ;
+}
+
+
+.sec1{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    #sec2row2{
+        flex-direction: column-reverse;
+    }
+
+
+   
+    .s2c2{
+        margin-top: 20px;
+    }
+
+    .safety{
+        padding: 0px !important;
+    }
+
+    .vdcol{
+        margin-top: 10px!important;
+    }
+
+    .Appmillion .pIcos{
+        width: 90%;
+        margin-top: 20px;
+        content: url("img/partner-section-mob.png");
+    }
+
+    .bucketImg{
+        width: 90%;
+        margin-top: 20px;
+        content: url("img/basket-mob-uc.png");
+    }
+
+    .press .card{
+        margin-top: 20px;
+    }
+
+    .footerBefore{
+        height: 800px !important;
+        background-image: url("img/stats-mobile-3e683e28b4aa50b1a521bb0c68cadd76.png") !important;
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        background-position: center bottom;
+    }
+    .lastText{
+        flex-direction: column !important;
+    }
+
+    
+}
+
+.sec2 h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -.57px;
+    color: #361374;
+}
+
+.sec2 h2 {
+    padding-top: 30px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: -.33px;
+    color: #323232;
+}
+
+.sec2 p {
+    padding-top: 10px;
+    font-size: .875rem;
+    line-height: 1.79;
+    letter-spacing: 0;
+    color: #333;
+}
+
+.line{
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #979797;
+}
+
+.col-data{
+    width: 80%;
+}
+
+.responHead h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -.57px;
+    color: #361374;
+}
+
+.sec3 .videoDiv{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.sec3 video{
+    display: grid;
+}
+.playBtn{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-left: -90px;
+    position: relative;
+    top: -52px;
+}
+
+.safety{
+    font-size: 1.125rem !important;
+    padding: 50px;
+}
+
+.mtrust{
+    width: 90%;
+    height: 420px;
+    background-color: #967edd;
+    color: #fff;
+    background-image: url("img/trust-banner-mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 38px top -4px;
+    border-radius: 32px;
+    align-items: center;
+    transform: translateY(71px);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.trust{
+    height: 281px;
+    background-color: #967edd;
+    color: #fff;
+    background-image: url("img/trust-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 38px top -4px;
+    border-radius: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    transform: translateY(138px);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.gradSec{
+    background: linear-gradient(#ddd8fa,#fff);
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+
+.trustText h2{
+    text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 2.625rem;
+    font-weight: 900;
+    line-height: 1.4;
+    display: block;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.trustText p{
+    font-size: .875rem;
+    line-height: 1.8;
+    width: 92%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.resCol{
+    padding-left: 40px;
+}
+.resCol h2{
+    text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+.resCol p{
+    font-size: .875rem;
+    line-height: 1.8;
+    width: 100%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Appmillion .headFooter{
+    text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 2.625rem;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: -.63px;
+    color: #361968;
+}
+
+.partnerBtn{
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 60px;
+    line-height: 57px;
+    border-radius: 33px;
+    border: none;
+    background-color: #0ad4f3 !important;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+.salesImg{
+    width:300px; 
+    height: 300px; 
+    position: absolute; 
+    top: 80px;
+    right: 120px;
+}
+
+.press{
+    background: #f6f2ff;
+}
+
+.press .card{
+    width: 90% !important;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.press .card .card-text{
+    font-size: .875rem;
+    line-height: 1.79;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.paperName{
+    font-size: 1rem !important;
+    line-height: 1.79;
+    color: #333;
+    margin-top: 50px;
+}
+
+.divLine{
+    width: 90%;
+    height: 4px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    
+}
+
+.press{
+    padding: 5%;
+}
+
+.press .card:hover{
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.footerBefore{
+    height: 444px;
+    background-color: #7962bd;
+    background-image: url("img/stats-desktop-06c1833a3c8dcc00bdbc92d16fdf9884.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center bottom;
+}
+
+.fb-p1{
+    padding: 0!important;
+    margin-bottom: -3px!important;
+    font-size: 1.25rem;
+    color: #dcd3ff;
+    line-height: 1.6;
+}
+.fb-p2{
+    font-size: 2.5rem;
+    margin-bottom: -3px!important;
+    font-weight: 900;
+    color: #fff;
+}
+
+.fb-p3{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #d4cbff;
+    line-height: 30px;
+}
+.btn-container{
+    width: 140px;
+    height: 37px;
+    line-height: 33px;
+    font-size: 1.125rem;
+    letter-spacing: -.27px;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #4cdeff;
+    border-radius: 30px;
+}
+
+.headNew{
+    text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 2.625rem;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: -.63px;
+    color: #361968;
+}
+
+
+
+
+
